@@ -72,25 +72,42 @@
 
             <!-- Rekomendasi Produk -->
             <div class="p-6 bg-[#F9F4E1] rounded-lg shadow-md">
-                <h3 class="text-xl font-semibold mb-6">Rekomendasi Produk</h3>
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                    <div class="text-center bg-white p-4 rounded-lg shadow-md">
-                        <img src="assets/images/produk kusam1.png" alt="Product 1" class="w-24 h-auto mb-4 mx-auto">
-                        <p class="font-semibold">Whitelab Brightening Facial Wash</p>
-                        <p class="text-gray-500">(Mulai Rp39.000)</p>
-                    </div>
-                    <div class="text-center bg-white p-4 rounded-lg shadow-md">
-                        <img src="assets/images/produk kusam2.png" alt="Product 2" class="w-24 h-auto mb-4 mx-auto">
-                        <p class="font-semibold">Clinelle WhitenUp Brightening Cleanser</p>
-                        <p class="text-gray-500">(Mulai Rp88.000)</p>
-                    </div>
-                    <div class="text-center bg-white p-4 rounded-lg shadow-md">
-                        <img src="assets/images/produk kusam3.png" alt="Product 3" class="w-24 h-auto mb-4 mx-auto">
-                        <p class="font-semibold">Emina Bright Stuff For Acne Prone Skin Moisturizing</p>
-                        <p class="text-gray-500">(Mulai Rp24.000)</p>
-                    </div>
-                </div>
+                <h3 class="text-xl font-semibold mb-6">Rekomendasi Produk Terbaik</h3>
+                  <!-- Grid untuk Produk -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <!-- Produk 1 -->
+        <a href="https://shopee.co.id/search?keyword=whitelab%20brightening%20facial%20wash" target="_blank" 
+            class="text-center bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+            <img src="assets/images/produk kusam1.png" alt="Product 1" class="w-24 h-auto mb-4 mx-auto">
+            <p class="font-semibold">Whitelab Brightening Facial Wash</p>
+            <p class="text-gray-500">(Mulai Rp39.000)</p>
+        </a>
+        
+        <!-- Produk 2 -->
+        <a href="https://shopee.co.id/search?keyword=clinelle%20whitenup%20brightening%20cleanser" target="_blank" 
+            class="text-center bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+            <img src="assets/images/produk kusam2.png" alt="Product 2" class="w-24 h-auto mb-4 mx-auto">
+            <p class="font-semibold">Clinelle WhitenUp Brightening Cleanser</p>
+            <p class="text-gray-500">(Mulai Rp88.000)</p>
+        </a>
+        
+        <!-- Produk 3 -->
+        <a href="https://shopee.co.id/search?keyword=emina%20bright%20stuff%20for%20acne%20prone%20skin%20moisturizing" target="_blank" 
+            class="text-center bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+            <img src="assets/images/produk kusam3.png" alt="Product 3" class="w-24 h-auto mb-4 mx-auto">
+            <p class="font-semibold">Emina Bright Stuff For Acne Prone Skin Moisturizing</p>
+            <p class="text-gray-500">(Mulai Rp24.000)</p>
+        </a>
+</div>
             </div>
+
+            <!-- Button Tambahan -->
+            <div class="text-center mt-8">
+    <a href="/products" class="bg-gradient-to-r from-[#4e3629] to-[#6f4f28] text-white px-6 py-3 rounded-full font-bold shadow-lg transform hover:scale-105 hover:rotate-2 transition duration-300 ease-in-out hover:shadow-2xl">
+        Lihat Semua Produk Rekomendasi
+    </a>
+</div>
+
         </section>
     </div>
 

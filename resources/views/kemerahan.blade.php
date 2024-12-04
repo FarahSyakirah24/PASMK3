@@ -72,25 +72,43 @@
             <!-- Rekomendasi Produk -->
             <div>
             <div class="p-6 bg-[#F9F4E1] rounded-lg shadow-md">
-                <h3 class="text-xl font-semibold mb-6">Rekomendasi Produk</h3>
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                    <div class="text-center bg-white p-4 rounded-lg shadow-md">
-                        <img src="assets/images/produk kemerahan1.png" alt="Product 1" class="w-24 h-auto mb-4 mx-auto">
-                        <p class="font-semibold">Senka-Perfect Whip Acne Care</p>
-                        <p class="text-gray-500">(Mulai Rp65.000)</p>
-                    </div>
-                    <div class="text-center bg-white p-4 rounded-lg shadow-md">
-                        <img src="assets/images/Produk kemerahan2.png" alt="Product 2" class="w-24 h-auto mb-4 mx-auto">
-                        <p class="font-semibold">Somethinc Niacinamide + Moisture Beet Serum</p>
-                        <p class="text-gray-500">(Mulai Rp80.000)</p>
-                    </div>
-                    <div class="text-center bg-white p-4 rounded-lg shadow-md">
-                        <img src="assets/images/produk kemerahan3.png" alt="Product 3" class="w-24 h-auto mb-4 mx-auto">
-                        <p class="font-semibold">Somethinc Calm Down R-Cover Cream</p>
-                        <p class="text-gray-500">(Mulai Rp120.000)</p>
-                    </div>
+                <h3 class="text-xl font-semibold mb-6">Rekomendasi Produk Terbaik</h3>
+                  <!-- Grid untuk Produk -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <!-- Produk 1 -->
+        <a href="https://shopee.co.id/mall/search?keyword=senka-perfect%20whip%20acne%20care" target="_blank" 
+            class="text-center bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+            <img src="assets/images/produk kemerahan1.png" alt="Product 1" class="w-24 h-auto mb-4 mx-auto">
+            <p class="font-semibold">Senka-Perfect Whip Acne Care</p>
+            <p class="text-gray-500">(Mulai Rp65.000)</p>
+        </a>
+        
+        <!-- Produk 2 -->
+        <a href="https://shopee.co.id/mall/search?keyword=somethinc%20niacinamide%20%2B%20moisture%20beet%20serum" target="_blank" 
+            class="text-center bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+            <img src="assets/images/produk kemerahan2.png" alt="Product 2" class="w-24 h-auto mb-4 mx-auto">
+            <p class="font-semibold">Somethinc Niacinamide + Moisture Beet Serum</p>
+            <p class="text-gray-500">(Mulai Rp80.000)</p>
+        </a>
+        
+        <!-- Produk 3 -->
+        <a href="https://shopee.co.id/mall/search?keyword=somethinc%20calm%20down%20r-cover%20cream" target="_blank" 
+            class="text-center bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+            <img src="assets/images/produk kemerahan3.png" alt="Product 3" class="w-24 h-auto mb-4 mx-auto">
+            <p class="font-semibold">Somethinc Calm Down R-Cover Cream</p>
+            <p class="text-gray-500">(Mulai Rp120.000)</p>
+        </a>
+</div>
                 </div>
-            </div>
+
+
+        <!-- Button Tambahan -->
+        <div class="text-center mt-8">
+    <a href="/products" class="bg-gradient-to-r from-[#4e3629] to-[#6f4f28] text-white px-6 py-3 rounded-full font-bold shadow-lg transform hover:scale-105 hover:rotate-2 transition duration-300 ease-in-out hover:shadow-2xl">
+        Lihat Semua Produk Rekomendasi
+    </a>
+</div>
+
         </section>
     </div>
 

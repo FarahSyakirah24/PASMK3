@@ -15,6 +15,13 @@
             <img src="assets/images/logo.png" alt="Solution Skin Logo" class="max-w-[150px] block mx-auto">
         </div>
 
+         <!-- Submit Button -->
+            
+        <!-- <a href="/products" class="fixed top-6 right-6 bg-gradient-to-r from-[#4e3629] to-[#6f4f28] text-white px-6 py-3 rounded-full font-bold shadow-lg transform hover:scale-105 hover:rotate-2 transition duration-300 ease-in-out hover:shadow-2xl">
+    Rekomendasi
+</a>
+
+
         <!-- Header -->
         <div class="header bg-[#CCB67F] flex justify-between items-center px-20 h-[310px] relative rounded-lg">
             <div class="hero-content flex justify-between items-center w-full">
@@ -25,7 +32,7 @@
                 </div>
                 <!-- Image Content -->
                 <div class="hero-image flex justify-center mt-8 md:mt-0">
-                <img src="assets/images/gambar orang.png" alt="Product 2" class="w-full h-auto mb-2">
+                    <img src="assets/images/gambar orang.png" alt="Hero Image" class="w-full h-auto mb-2">
                 </div>
             </div>
         </div>
@@ -61,7 +68,38 @@
                 <a href="/kusam" class="block mt-3 mb-2 font-bold">KUSAM</a>
             </div>
         </div>
-    </div>
 
+        <!-- Separator -->
+        <div class="separator my-5 h-[2px] bg-[#F6EACB]"></div>
+
+         <!-- Get in Touch Section -->
+         <div class="get-in-touch bg-[#CCB67F] rounded-lg shadow-md px-8 py-10 flex flex-col lg:flex-row items-center lg:items-start gap-8">
+            <!-- Form Section -->
+            <div class="form-section flex-1">
+                <h2 class="text-3xl font-bold mb-5 text-white">Send Your Message</h2>
+                <p class="text-white mb-8">Give your suggestions and feedback about our website!</p>
+                <form action="{{ route('send.message') }}" method="POST" class="space-y-4">
+    @csrf <!-- Include this for CSRF protection -->
+    <div>
+        <input type="text" name="name" placeholder="Your Name" class="w-full px-4 py-3 rounded-md bg-[#F6EACB] text-gray-800 focus:outline-none focus:ring-2 focus:ring-white">
+    </div>
+    <div>
+        <input type="email" name="email" placeholder="Your Email" class="w-full px-4 py-3 rounded-md bg-[#F6EACB] text-gray-800 focus:outline-none focus:ring-2 focus:ring-white">
+    </div>
+    <div>
+        <textarea name="message" placeholder="Your Message" rows="4" class="w-full px-4 py-3 rounded-md bg-[#F6EACB] text-gray-800 focus:outline-none focus:ring-2 focus:ring-white"></textarea>
+    </div>
+    <button type="submit" class="px-6 py-3 bg-white text-[#CCB67F] rounded-md font-bold hover:bg-[#F6EACB] transition-colors">
+        Send Message
+    </button>
+</form>
+            </div>
+
+            <!-- Image Section -->
+            <div class="image-section flex-1 flex justify-center items-center">
+                <img src="assets/images/email.png" alt="Contact Us" class="w-[350px] h-auto rounded-lg shadow-lg">
+            </div>
+        </div>
+    </div>
 </body>
 </html>

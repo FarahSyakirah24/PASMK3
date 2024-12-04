@@ -15,7 +15,7 @@
         <img src="assets/images/logo.png" alt="Product 2" class="w-full h-auto mb-2">
         </div>
         <!-- Navigation -->
-        <nav>
+       <!-- <nav>
             <ul class="flex space-x-6 m-0 p-0">
                 <li><a href="#" class="text-white font-bold no-underline">Home</a></li>
                 <li><a href="#" class="text-white font-bold no-underline">About</a></li>
@@ -39,11 +39,11 @@
                 <p class="text-black my-8">
                     Selamat Datang Di Solution Skin. Disini Kalian Bisa Menemukan Banyak Skincare Yang Cocok Untuk Kulit Kalian Dan Menjadikan Kulit Menjadi Lebih Sehat.
                 </p>
-                <button class="mt-5 px-6 py-3 bg-[#b5a06f] text-white rounded font-bold text-lg">
-                    Get Started
-                </button>
             </div>
-            <!-- Hero Image -->
+            <!--<button class="mt-5 px-6 py-3 bg-[#b5a06f] text-white rounded font-bold text-lg">
+                    Get Started
+                </button> !-- Hero Image -->
+                
             <div class="hero-image flex justify-center mt-8 md:mt-0">
             <img src="assets/images/orang re.png" alt="Product 2" class="w-full h-auto mb-2">
             </div>
